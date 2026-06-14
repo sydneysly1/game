@@ -1,0 +1,25 @@
+
+body{
+background:#120b2b;
+color:#f7d77b;
+font-family:Georgia,serif;
+text-align:center;
+}
+canvas{
+background:#050313;
+border:2px solid #f7d77b;
+border-radius:20px;
+touch-action:none;
+}
+#done{display:none}
+img{
+width:250px;
+border-radius:20px;
+}
+.flames{
+font-size:35px;
+animation:flicker .7s infinite alternate;
+}
+@keyframes flicker{
+from{opacity:.5}to{opacity:1}
+}
